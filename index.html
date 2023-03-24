@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.navbar {
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #0DB760;
+}
+
+h1 {
+position: absolute;
+width: 491px;
+height: 140px;
+left: 70px;
+top: 150px;
+font-size: 58px;
+color: #0DB760;
+}
+h2 {
+position: absolute;
+width: 500px;
+height: 48px;
+left: 70px;
+top: 316px;
+font-size: 16px;
+}
+.button {
+  position: absolute;
+  background-color: #0DB760;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 70px;
+  top: 380px;
+  height:55px;
+  width:60;
+}
+.button2{
+  position: absolute;
+  background-color: #0DB760;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 200px;
+  top: 380px;
+  height:55px;
+  width:60;
+}
+.square {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  background-color: #0DB760;
+  left:900px;
+  top: 130px;
+}
+.square2 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  left:850px;
+  top: 180px;
+  border: 5px solid #000000;
+  border-radius: 2px;
+}
+
+h3 {
+  position: absolute;
+  left: 150px;
+  top: 450px;
+  font-size: 48px; 
+  color: #0DB760;
+}
+h4 {
+  position: absolute;
+  left: 550px;
+  top: 440px;
+  font-size: 48px; 
+  color: #0DB760;
+}
+h5 {
+  position: absolute;
+  left: 950px;
+  top: 425px;
+  font-size: 48px; 
+  color: #0DB760;
+}
+h6 {
+  position: absolute;
+  left: 150px;
+  top: 490px;
+  font-size: 25px; 
+  color: rgb(0, 0, 1);
+}
+h7 {
+  position: absolute;
+  left: 550px;
+  top: 550px;
+  font-size: 25px; 
+  color: rgb(0, 0, 1);
+}
+h8 {
+  position: absolute;
+  left: 950px;
+  top: 550px;
+  font-size: 25px; 
+  color: rgb(0, 0, 1);
+}
+h9{
+position: absolute;
+width: 438px;
+height: 110px;
+left: 70px;
+top: 650px;
+font-size: 45px;
+color: #0DB760
+}
+h10 {
+position: absolute;
+width: 503px;
+height: 100px;
+left: 70px;
+top: 750px;
+}
+.button3{         /* Add Education Skills */
+  position: absolute;
+  background-color:#0DB760;
+  color:white;
+  border-radius: 1px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 700px;
+  top: 650px;
+  height:55px;
+  width:60;
+}
+.button4{         /* Add Work Experianace */
+  position: absolute;
+  background-color:#0DB760;
+  color:white;
+  border-radius: 1px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 950px;
+  top: 700px;
+  height:55px;
+  width:60;
+}
+.button5{         /* Add Previous Projects */
+  position: absolute;
+  background-color:#0DB760;
+  color:white;
+  border-radius: 1px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 700px;
+  top: 750px;
+  height:55px;
+  width:60;
+}
+.button6{
+  position: absolute;
+  background-color: #0DB760;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 70px;
+  top: 800px;
+  height:55px;
+  width:60;
+}
+h11 {
+  position: absolute;
+  width: 438px;
+  height: 110px;
+  left: 70px;
+  top: 1000px;
+  font-size: 45px;
+  color: #0DB760
+}
+h12 {
+position: absolute;
+width: 503px;
+height: 100px;
+left: 70px;
+top: 1100px;
+}
+
+#img1 {
+position: absolute;
+width: 300px;
+height:600px;
+left: 570px;
+top: 1000px;
+}
+#img2{
+position: absolute;
+width: 300px;
+height:600px;
+left: 900px;
+top: 1000px;
+}
+#img3{
+position: absolute;
+width: 300px;
+height:600px;
+left: 1200px;
+top: 1000px;
+}
+.button7{
+  position: absolute;
+  background-color: #0DB760;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 70px;
+  top: 1150px;
+  height:55px;
+  width:60;
+}
+h13 {
+  position: absolute;
+  width: 438px;
+  height: 110px;
+  left: 70px;
+  top: 1800px;
+  font-size: 45px;
+  color: #0DB760
+}
+h14 {
+  position: absolute;
+  width: 500px;
+  height: 110px;
+  left: 500px;
+  top: 2500px;
+  font-size: 45px;
+  color: #0DB760;
+  text-align: center;
+}
+h15 {
+position: absolute;
+width: 460px;
+height: 100px;
+left: 519px;
+top: 2550px;
+text-align: center;
+}
+.button8 {                /* Call Me */
+  position: absolute;
+  background-color: #0DB760;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 150px;
+  top: 2800px;
+  height:55px;
+  width:55px;
+}
+#img4{
+  height:45px;
+  width:45px;
+  left: 155px;
+  top: 2807px;
+  position: absolute;
+}
+
+.button9 {                /* Email Me */
+  position: absolute;
+  background-color: #0DB760;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 150px;
+  top: 2900px;
+  height:55px;
+  width:55px;
+}
+#img5{
+  height:45px;
+  width:45px;
+  left: 155px;
+  top: 2907px;
+  position: absolute;
+}
+.button10 {                /* Address */
+  position: absolute;
+  background-color: #0DB760;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 150px;
+  top: 3000px;
+  height:55px;
+  width:55px;
+}
+#img6{
+  height:45px;
+  width:45px;
+  left: 155px;
+  top: 3007px;
+  position: absolute;
+}
+h16 {
+position: absolute;
+width: 460px;
+height: 100px;
+left:215px;
+top: 2805px;
+color: grey;
+}
+h17 {
+position: absolute;
+width: 460px;
+height: 100px;
+left:215px;
+top: 2830px;
+color: black;
+}
+h18 {
+position: absolute;
+width: 460px;
+height: 100px;
+left:215px;
+top: 2905px;
+color: grey;
+}
+h19 {
+position: absolute;
+width: 460px;
+height: 100px;
+left:215px;
+top: 2930px;
+color: black;
+}
+h20 {
+position: absolute;
+width: 460px;
+height: 100px;
+left:215px;
+top: 3005px;
+color: grey;
+}
+h21 {
+position: absolute;
+width: 460px;
+height: 100px;
+left:215px;
+top: 3030px;
+color: black;
+}
+/* Form */
+.button11 {                /* Full name */
+  position: absolute;
+  background-color: white;
+  border:0.5px solid #BEC0BF;
+  color: grey;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 500px;
+  top: 2700px;
+  height:50px;
+  width:350px;
+  text-align:left;
+}
+.button12 {                /* Your email */
+  position: absolute;
+  background-color: white;
+  border:0.5px solid #BEC0BF;
+  color: grey;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 900px;
+  top: 2700px;
+  height:50px;
+  width:350px;
+  text-align:left;
+}
+.button13 {                /* Phone number */
+  position: absolute;
+  background-color: white;
+  border:0.5px solid #BEC0BF;
+  color: grey;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 500px;
+  top: 2800px;
+  height:50px;
+  width:350px;
+  text-align:left;
+}
+.button14 {                /* Budget */
+  position: absolute;
+  background-color: white;
+  border:0.5px solid #BEC0BF;
+  color: grey;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 900px;
+  top: 2800px;
+  height:50px;
+  width:350px;
+  text-align:left;
+}
+.button15 {                /* Message */
+  position: absolute;
+  background-color: white;
+  border:0.5px solid #BEC0BF;
+  color: grey;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 500px;
+  top: 2900px;
+  height:150px;
+  width:750px;
+  text-align:left;
+}
+.button16 {                /* Submit Message */
+  background-color: #0DB760;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 1125px;
+  top: 3100px;
+  height:50px;
+  width:100px;
+  position: absolute;
+}
+
+</style>
+</head> <title> Index </title><link rel = "stylesheet" href = "css/style.css">
+<body>
+
+
+  <div class="navbar">
+    <a href="#"><i class="fa fa-home"></i> Home</a> 
+    <a href="#"><i class="fa fa-search"></i> About</a> 
+    <a href="#"><i class="fa fa-envelope"></i> Skills</a> 
+    <a href="#"><i class="fa fa-user"></i> Work</a>
+    <a href="#"><i class="fa fa-user"></i> Testimonial</a>
+    <a href="#"><i class="fa fa-user"></i> Contact</a>
+    <a href="#"><i class="fa fa-user"></i> Download CV</a>
+  </div>
+
+<body>
+<h1> I'm Creative Web Developer!</h1>
+<h2>I'm Abhavya, a Creative Web Developer. I've been helping businesses 
+  to solve their problems with my Developing solutions from 1 year.</h2>
+<button class="button">Contact Me</button>
+<button class="button2">Learn More</button>
+<div class="square"></div>
+<div class="square2"></div>
+<h3>80+</h3>
+<h4>200+</h4>
+<h5>99+</h5>
+<h6>Satisfied clients</h6><h7>Projects completed</h7><h8>Reviews given</h8>
+<h9>Why Hire Me For Your Next Project?</h9>
+<h10>I'm specialist in Web Development. My passion is development & solving problems through user interface and responsive design.</h10>
+<button class="button3">Add Education Skilss</button>
+<button class="button4">Add Work Experiance</button>
+<button class="button5">Add Previous Projects</button>
+<button class="button6">Hire Me</button>
+<h11>My Creative Works Latest Projects</h11>
+<h12>I have selected and mentioned here some of my latest projects to share with you.</h12>
+<img src="1.png" alt="1" id="img1">
+<img src="2.png" alt="2" id="img2">
+<img src="3.png" alt="3" id="img3">
+<button class="button7">Show More</button>
+<h13>Our Customer Say Something About Us</h13>
+<h14>Let's Discuss your project</h14>
+<h15>Let's make something new, different and more meaningful or make thing more visual or conceptual</h15>
+<button class="button8"></button><img src="call.png" alt="call" id="img4">
+<button class="button9"></button><img src="mail.png" alt="mail" id="img5">
+<button class="button10"></button><img src="address.png" alt="address" id="img6">
+<h16>Call Me</h16><h17>+8801613968687</h17>
+<h18>Email me</h18><h19>abhavya11@gmail.com</h19>
+<h20>Address</h20><h21>Chandigarh,India</h21>
+<button class="button11">Full Name</button><button class="button12">Your email</button>
+<button class="button13">Phone Number</button><button class="button14">Budget</button>
+<button class="button15">Message</button>
+<button class="button16">Submit Message</button>
+</body>
+</html>
+
+
